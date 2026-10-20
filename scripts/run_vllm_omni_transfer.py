@@ -55,16 +55,17 @@ def negative_prompt(spec: dict) -> str:
 def submit(args: argparse.Namespace, spec_path: Path, *, preflight_only=False) -> tuple[str, Path] | None:
     spec = read_json(spec_path)
     name = spec.get("name") or spec_path.stem
-    chosen=[k for k in ("edge","seg","depth","blur","wsm") if spec.get(k)]
-    if len(chosen)!=1 or chosen[0] not in ("edge","seg") or spec.get("multi_control"):
-        raise ValueError("Exactly one edge or seg hint is required")
-    control=chosen[0]
+    chosen = [key for key in ("edge", "seg", "depth", "blur") if spec.get(key)]
+    if not chosen:
+        raise ValueError("At least one edge, seg, depth, or blur hint is required")
+    if "seg" in chosen and len(chosen) > 1:
+        raise ValueError("Segmentation control must be submitted alone")
+    control = "+".join(chosen)
     source = Path(spec["vision_path"])
     prompt_path = Path(spec["prompt_path"])
     run_dir = args.output_dir / name
     run_dir.mkdir(parents=True, exist_ok=True)
     prompt_text = json.dumps(read_json(prompt_path), ensure_ascii=False, indent=2)
-    edge = spec.get("edge") or {}
     max_frames = int(spec.get("max_frames") or spec.get("num_frames"))
     extra = {
         "resolution": str(spec.get("resolution", args.resolution)),
@@ -77,17 +78,45 @@ def submit(args: argparse.Namespace, spec_path: Path, *, preflight_only=False) -
         "use_duration_template": False,
         "guardrails": False,
         "control_guidance": float(spec.get("control_guidance", 1.5)),
-        "edge": {
+    }
+    if "edge" in chosen:
+        edge = spec["edge"]
+        extra["edge"] = {
             "weight": float(edge.get("weight", args.edge_weight)),
             "preset_edge_threshold": edge.get("preset_edge_threshold", args.edge_threshold),
-        },
-    }
-    if edge.get("control_path"):
-        extra["edge"]["control_path"] = str(edge["control_path"])
-    if control == "seg":
-        extra.pop("edge",None)
-        extra["seg"]={"weight":1.0,"control_path":spec["seg"]["control_path"]}
-        assert Path(extra["seg"]["control_path"]).is_file()
+        }
+        if edge.get("control_path"):
+            control_path = Path(edge["control_path"])
+            if not control_path.is_file():
+                raise FileNotFoundError(f"Edge control does not exist: {control_path}")
+            extra["edge"]["control_path"] = str(control_path)
+    if "seg" in chosen:
+        control_path = Path(spec["seg"]["control_path"])
+        if not control_path.is_file():
+            raise FileNotFoundError(f"Seg control does not exist: {control_path}")
+        extra["seg"] = {
+            "weight": float(spec["seg"].get("weight", 1.0)),
+            "control_path": str(control_path),
+        }
+    if "depth" in chosen:
+        depth = spec["depth"]
+        extra["depth"] = {
+            "weight": float(depth.get("weight", 1.0)),
+        }
+        if depth.get("control_path"):
+            control_path = Path(depth["control_path"])
+            if not control_path.is_file():
+                raise FileNotFoundError(f"Depth control does not exist: {control_path}")
+            extra["depth"]["control_path"] = str(control_path)
+        else:
+            extra["depth"]["auto_generate"] = True
+            extra["depth"]["max_frames"] = max_frames
+    if "blur" in chosen:
+        blur = spec["blur"]
+        extra["blur"] = {
+            "weight": float(blur.get("weight", 1.0)),
+            "preset_blur_strength": blur.get("preset_blur_strength", "medium"),
+        }
     write_json(run_dir / "transfer_backend.json", {
         "backend": BACKEND_NAME,
         "spec_path": str(spec_path.resolve()),
@@ -193,6 +222,7 @@ def main() -> None:
     ap.add_argument("--seed", type=int, default=2026)
     ap.add_argument("--poll-interval", type=int, default=30)
     ap.add_argument("--timeout-sec", type=int, default=7200)
+    ap.add_argument("--preflight-only", action="store_true")
     args = ap.parse_args()
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -201,6 +231,9 @@ def main() -> None:
     # Validate every view before submitting any GPU generation job.
     for spec in specs:
         submit(args, spec, preflight_only=True)
+    if args.preflight_only:
+        print(f"preflight passed: {len(specs)} spec(s)", flush=True)
+        return
     jobs = {spec.stem: submit(args, spec) for spec in specs}
     poll(args, jobs)
 
