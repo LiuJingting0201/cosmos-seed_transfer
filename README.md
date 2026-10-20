@@ -24,6 +24,10 @@ In the Dex1 seed-2026 result, the third camera view redraws the gripper shadow
 as a gripper-like mechanical object. The current pre-generation audit does not
 inspect generated videos, so this defect passes the existing technical gates.
 
+The reproducible A-E investigation and the four-view Edge+Depth follow-up are
+documented in
+[`docs/dex1_shadow_ablation.md`](docs/dex1_shadow_ablation.md).
+
 ## Sensitive data
 
 Credentials, model weights, source videos, generated videos, and experiment
