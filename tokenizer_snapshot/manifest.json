@@ -1,0 +1,55 @@
+{
+  "repo": "nvidia/Cosmos3-Nano",
+  "revision": "e59a53c25979a090fa8706c9acc0c254a6e89b92",
+  "files": [
+    {
+      "file": "text_tokenizer/added_tokens.json",
+      "bytes": 707,
+      "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/text_tokenizer/added_tokens.json"
+    },
+    {
+      "file": "text_tokenizer/chat_template.jinja",
+      "bytes": 5292,
+      "sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/text_tokenizer/chat_template.jinja"
+    },
+    {
+      "file": "text_tokenizer/merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/text_tokenizer/merges.txt"
+    },
+    {
+      "file": "text_tokenizer/special_tokens_map.json",
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/text_tokenizer/special_tokens_map.json"
+    },
+    {
+      "file": "text_tokenizer/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/text_tokenizer/tokenizer.json"
+    },
+    {
+      "file": "text_tokenizer/tokenizer_config.json",
+      "bytes": 5404,
+      "sha256": "355f2b4e5bad7b01f11ef6cb68ebc176f61b95c3276092ea225b1bea0e01e95c",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/text_tokenizer/tokenizer_config.json"
+    },
+    {
+      "file": "text_tokenizer/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/text_tokenizer/vocab.json"
+    },
+    {
+      "file": "vae/config.json",
+      "bytes": 1750,
+      "sha256": "1d3312edfb30b8486720ea29f3532f89c5b5fc05cc571d7664c6f5162effc23e",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano/resolve/e59a53c25979a090fa8706c9acc0c254a6e89b92/vae/config.json"
+    }
+  ],
+  "historical_equivalence": "pending"
+}

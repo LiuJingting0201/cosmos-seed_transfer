@@ -1,0 +1,40 @@
+{
+  "cosmos_checkout": "/root/sam31/cosmos",
+  "views_root": "/root/sam31/data/宇树数据集/10fps_30s/G1_WBT_Dex1_Put_Clothes_into_Washing_Machine",
+  "experiment_root": "/root/fangweiyi/showcases/10-20-dex1-washing-machine-double/experiments/G1_WBT_Dex1_Put_Clothes_into_Washing_Machine/seed_2026",
+  "user_prompt": "1. 将衣服颜色调整为黄色。2. 地板材质替换为木纹质感。3. 保持多视角下的动作同步和物体交互关系不变。",
+  "prompt_set": "v1",
+  "run_name": "seed_2026",
+  "control": "edge",
+  "seed": 2026,
+  "python": "python3",
+  "checkpoint_path": "/vemlp-demo-models/models/nvidia/Cosmos3-Nano/Cosmos3-Nano",
+  "reasoner_model": "cosmos3-nano-reasoner",
+  "reasoner_url": "http://127.0.0.1:8001/v1/chat/completions",
+  "reasoner_max_tokens": 12000,
+  "transfer_backend": "vllm_omni_gateway",
+  "gateway_url": "http://127.0.0.1:8002",
+  "upstream_url": "http://127.0.0.1:8000",
+  "gateway_timeout_sec": 21600,
+  "gateway_poll_interval": 20,
+  "no_diffusion_cache": false,
+  "editor_provider": "ark",
+  "editor_model": "doubao-seed-evolving",
+  "editor_url": "https://ark.cn-beijing.volces.com/api/v3/responses",
+  "editor_api_key_env": "ARK_API_KEY",
+  "editor_max_tokens": 16000,
+  "baseline_spec": "/root/fangweiyi/showcases/full_batch_20261008/configs/edge_704_15steps.json",
+  "negative_prompt_file": "/root/fangweiyi/showcases/full_batch_20261008/configs/general_restyle_negative_prompt.json",
+  "revision_feedback": {
+    "task_scope": "This is a tightly scoped restyle. Recolor only the visible clothes to yellow and replace only the floor appearance with a wood-grain material. Preserve multi-view action synchronization, object identities and counts, geometry, positions, contacts, interactions, motion, timing, camera motion, robots, people, lighting, and every other non-target appearance. Do not let yellow or wood texture bleed across object boundaries.",
+    "media": "Every synchronized view is exactly 30 seconds at integer 10 fps. All actions, segments, and temporal captions must cover 0:00-0:30.",
+    "multiview": "Files are four synchronized views of one scene. Contact-sheet columns are successive times, never a grid inside the source video. Trailing black contact-sheet cells are padding.",
+    "binding": "Use a concrete singular class key for each visible clothes and copy the exact phrase 'yellow' byte-for-byte into that subject's own subjects[] entry. Every visible robot hand or gripper needs a dedicated subjects[] entry carrying its exact source color and material. Explicitly own all non-target objects so the requested color cannot bleed onto them.",
+    "visibility": "Describe only objects and robot or person parts actually visible in each camera. Do not infer hidden limbs, labels, contact, completed actions, or exact orientation from cropped regions.",
+    "length": "Keep the complete native JSON concise while retaining every schema key."
+  },
+  "source_validation_facts": {
+    "media": "All four views are synchronized, 30s, 10 fps, H.264/yuv420p.",
+    "scope": "The requested yellow clothes and wood-grain floor are intentional target outcomes. Lighting is not a requested change and must remain source-faithful. Audit object identity and count, geometry, pose, contact, interactions, cross-view action timing, visibility, non-target appearances, robots, and people."
+  }
+}
