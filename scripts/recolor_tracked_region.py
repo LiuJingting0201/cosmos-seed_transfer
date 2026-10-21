@@ -39,6 +39,7 @@ def main() -> None:
     parser.add_argument("--saturation", type=int, default=180)
     parser.add_argument("--value-offset", type=float, default=70.0)
     parser.add_argument("--value-scale", type=float, default=0.75)
+    parser.add_argument("--preserve-source-color", action="store_true")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--manifest", type=Path, required=True)
     args = parser.parse_args()
@@ -122,15 +123,18 @@ def main() -> None:
             temporal_alpha = min(fade_in, fade_out) if active else 0.0
             alpha = np.clip(alpha * temporal_alpha, 0.0, 1.0)[..., None]
 
-            hsv = cv2.cvtColor(source_frame, cv2.COLOR_BGR2HSV)
-            target_hsv = hsv.copy()
-            target_hsv[..., 0] = args.hue
-            target_hsv[..., 1] = np.maximum(target_hsv[..., 1], args.saturation)
-            value = target_hsv[..., 2].astype(np.float32)
-            target_hsv[..., 2] = np.clip(
-                args.value_offset + args.value_scale * value, 0, 255
-            ).astype(np.uint8)
-            target = cv2.cvtColor(target_hsv, cv2.COLOR_HSV2BGR)
+            if args.preserve_source_color:
+                target = source_frame
+            else:
+                hsv = cv2.cvtColor(source_frame, cv2.COLOR_BGR2HSV)
+                target_hsv = hsv.copy()
+                target_hsv[..., 0] = args.hue
+                target_hsv[..., 1] = np.maximum(target_hsv[..., 1], args.saturation)
+                value = target_hsv[..., 2].astype(np.float32)
+                target_hsv[..., 2] = np.clip(
+                    args.value_offset + args.value_scale * value, 0, 255
+                ).astype(np.uint8)
+                target = cv2.cvtColor(target_hsv, cv2.COLOR_HSV2BGR)
             frame = np.rint(frame * (1.0 - alpha) + target * alpha).astype(np.uint8)
             coverage.append(float(region.mean()))
         encoder.stdin.write(frame.tobytes())
@@ -161,6 +165,7 @@ def main() -> None:
         "saturation": args.saturation,
         "value_offset": args.value_offset,
         "value_scale": args.value_scale,
+        "preserve_source_color": args.preserve_source_color,
         "mean_mask_area_fraction": float(np.mean(coverage)),
         "output": str(args.output.resolve()),
         "output_sha256": sha256(args.output),

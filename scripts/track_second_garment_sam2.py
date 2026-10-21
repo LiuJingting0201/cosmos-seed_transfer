@@ -24,6 +24,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--contact", type=Path, required=True)
     parser.add_argument("--manifest", type=Path, required=True)
+    parser.add_argument("--preset", choices=("wrist-left", "wrist-right"), default="wrist-left")
     args = parser.parse_args()
 
     capture = cv2.VideoCapture(str(args.source))
@@ -38,7 +39,26 @@ def main() -> None:
     if not frames:
         raise RuntimeError("No source frames decoded")
     height, width = frames[0].shape[:2]
-    seed_frame = 16
+    if args.preset == "wrist-left":
+        seed_frame = 16
+        points = [[[
+            [int(width * 0.50), int(height * 0.52)],
+            [int(width * 0.63), int(height * 0.66)],
+            [int(width * 0.39), int(height * 0.73)],
+            [int(width * 0.11), int(height * 0.82)],
+            [int(width * 0.91), int(height * 0.82)],
+            [int(width * 0.16), int(height * 0.17)],
+        ]]]
+    else:
+        seed_frame = 54
+        points = [[[
+            [int(width * 0.54), int(height * 0.38)],
+            [int(width * 0.62), int(height * 0.56)],
+            [int(width * 0.48), int(height * 0.68)],
+            [int(width * 0.12), int(height * 0.80)],
+            [int(width * 0.88), int(height * 0.80)],
+            [int(width * 0.48), int(height * 0.08)],
+        ]]]
     pil_frames = [Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)) for frame in frames]
 
     processor = Sam2VideoProcessor.from_pretrained(MODEL, local_files_only=True)
@@ -49,14 +69,6 @@ def main() -> None:
         video=pil_frames, inference_device="cuda", processing_device="cuda",
         video_storage_device="cpu", dtype=torch.bfloat16,
     )
-    points = [[[
-        [int(width * 0.50), int(height * 0.52)],
-        [int(width * 0.63), int(height * 0.66)],
-        [int(width * 0.39), int(height * 0.73)],
-        [int(width * 0.11), int(height * 0.82)],
-        [int(width * 0.91), int(height * 0.82)],
-        [int(width * 0.16), int(height * 0.17)],
-    ]]]
     labels = [[[1, 1, 1, 0, 0, 0]]]
     processor.add_inputs_to_inference_session(
         session, frame_idx=seed_frame, obj_ids=[1],
@@ -124,6 +136,7 @@ def main() -> None:
         "source": str(args.source.resolve()),
         "model": MODEL,
         "method": "SAM2.1 single-object point-prompt tracking",
+        "preset": args.preset,
         "frames": len(frames),
         "fps": fps,
         "seed_frame": seed_frame,
