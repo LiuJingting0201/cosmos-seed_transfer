@@ -1,0 +1,41 @@
+{
+  "scene": "G1_WBT_Dex1_Put_Clothes_into_Washing_Machine",
+  "fps": 10,
+  "frames": 300,
+  "state_model": [
+    "SEARCH",
+    "GRASP_CONFIRMED",
+    "HELD",
+    "RELEASED_OR_OCCLUDED"
+  ],
+  "garments": {
+    "A": {
+      "target_color": "#D8A928",
+      "visibility_intervals": {
+        "wrist_left": [42, 90],
+        "wrist_right": [50, 100]
+      }
+    },
+    "B": {
+      "target_color": "#2459C4",
+      "visibility_intervals": {
+        "wrist_left": [135, 220],
+        "wrist_right": [165, 225]
+      }
+    },
+    "C": {
+      "target_color": "#16845B",
+      "visibility_intervals": {
+        "wrist_left": [240, 280],
+        "wrist_right": [245, 300]
+      }
+    }
+  },
+  "constraints": {
+    "track_on": "Cosmos-generated wrist view",
+    "outside_visibility_interval": "empty mask",
+    "exclude_robot_mask": true,
+    "propagate_across_grasp_boundary": false,
+    "propagate_across_release_boundary": false
+  }
+}
