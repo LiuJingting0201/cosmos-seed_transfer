@@ -1,0 +1,32 @@
+{
+  "name": "popcorn_red_cup_edge0.9_blur0.1",
+  "source": "/root/sam31/cosmos-robot-full-length-20260922/inputs/pick_popcorn__20260429_181238/cam_high_left/source.mp4",
+  "prompt": "/root/sam31/cosmos-popcorn-edge-blur-full-20261026/prompts/pick_popcorn__20260429_181238/cam_high_left/modified_prompt.json",
+  "output_root": "/root/sam31/cosmos-prefix-previews",
+  "preview_frames": 93,
+  "chunk_frames": 93,
+  "model": "/vemlp-demo-models/models/nvidia/Cosmos3-Nano/Cosmos3-Nano",
+  "gateway": "http://127.0.0.1:8002",
+  "upstream": "http://127.0.0.1:8000",
+  "gpu_lock": "/root/sam31/cosmos-full-suite-20260917/gpu-admission.lock",
+  "size": "1280x720",
+  "resolution": "720",
+  "fps": 30,
+  "num_inference_steps": 15,
+  "guidance_scale": 3.0,
+  "flow_shift": 10.0,
+  "control_guidance": 1.5,
+  "seed": 2026,
+  "controls": {
+    "edge": {
+      "weight": 0.9,
+      "preset_edge_threshold": "medium",
+      "control_path": "/root/sam31/cosmos-robot-full-length-20260922/inputs/pick_popcorn__20260429_181238/cam_high_left/edge.mp4"
+    },
+    "blur": {
+      "weight": 0.1,
+      "preset_blur_strength": "medium"
+    }
+  },
+  "negative_prompt": "Color spill onto any non-cup object, altered background, altered robot, altered scoop, altered popcorn, altered motion, altered lighting, altered shadows, sharpened image, deformed objects, temporal flicker, new objects."
+}
