@@ -1,0 +1,15 @@
+{
+  "provider": "openai",
+  "endpoint": "http://127.0.0.1:8001/v1/chat/completions",
+  "requested_model": "cosmos3-nano-reasoner",
+  "response_model": "cosmos3-nano-reasoner",
+  "response_id": "chatcmpl-a484aaaaf8d57ff4",
+  "elapsed_s": 13.454,
+  "usage": {
+    "prompt_tokens": 3285,
+    "total_tokens": 5878,
+    "completion_tokens": 2593,
+    "prompt_tokens_details": null
+  },
+  "status": "completed"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "findings": [
+    "The sky-dominated composition, dark blue-gray housing, peripheral supports and black propeller traces are explicitly preserved while snowfall supplies the requested weather change.",
+    "Flake direction is described appropriately for an upward-facing camera. No pedestrian or distinct water visibility is falsely asserted, and shared weather fields agree."
+  ],
+  "evidence": [
+    "0.0–1.0 s: The rounded dark blue-gray housing stays at the upper-right rim; curved black propeller traces cross the cloudy sky, with vegetation and a tiny blue sign around the perimeter.",
+    "2.0–3.0 s: Blade-trace spacing and curvature vary while the housing remains anchored; narrow landscape strips and lamp silhouettes shift slightly around the rim.",
+    "4.0–4.9375 s: The same upward composition persists, including the small upper-rim sign and peripheral ground fragments, without a distinct closing maneuver.",
+    "All six samples support treating repeated blade streaks as motion artifacts rather than additional rotors; no unsupported rotor count or rotation direction is specified."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_up_left_original/modified_prompt.json": "97323119664e5e02a52b076ecf176565026c8f73633dcc51ef6489a30114dcd7"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4"
+}

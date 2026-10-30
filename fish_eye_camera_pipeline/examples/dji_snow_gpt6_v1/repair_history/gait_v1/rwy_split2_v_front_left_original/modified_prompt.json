@@ -1,0 +1,212 @@
+{
+  "subjects": [
+    {
+      "description": "One distant pedestrian walking along the sidewalk beside the road.",
+      "appearance_details": "Dark charcoal upper garment with a small lighter torso area, blue-gray trousers and dark footwear. Fine facial details are unresolved at this distance.",
+      "relationship": "Passerby on the sidewalk below the aircraft-mounted camera.",
+      "location": "Initially lower-middle, progressively shifting toward center-right.",
+      "relative_size": "Small within the frame.",
+      "orientation": "Aligned approximately with the sidewalk; precise facing direction is unclear.",
+      "pose": "Upright with alternating leg positions during walking.",
+      "action": "Walks along the sidewalk while aircraft travel shifts the person's projected position.",
+      "state_changes": "Moves rightward and generally higher through approximately 0:04, then appears slightly lower in the final sample at 4.9375 seconds.",
+      "clothing": "Dark charcoal upper garment, blue-gray trousers and dark footwear.",
+      "expression": "",
+      "gender": "",
+      "age": "Adult in apparent proportions; exact age unresolved.",
+      "skin_tone_and_texture": "Unresolved at this distance.",
+      "facial_features": "Unresolved at this distance.",
+      "number_of_subjects": 1,
+      "number_of_arms": 2,
+      "number_of_legs": 2
+    },
+    {
+      "description": "Matte light gray aircraft support assembly occupying the left foreground, with an angular housing and an inclined strut supporting a motor.",
+      "appearance_details": "Matte light gray aircraft support assembly with broad angular surfaces, beige wrapping around its lower section, a pale securing band crossing the structure and a matte black motor housing above. These material colors remain visible under diffuse winter illumination.",
+      "relationship": "Rigid aircraft hardware close to the camera, supporting the rotating propeller.",
+      "location": "Left and lower-left foreground; the motor is visible against the sky above the vegetation.",
+      "relative_size": "Large foreground element.",
+      "orientation": "The support rises diagonally toward the motor; its upper end is visible within the frame.",
+      "pose": "Rigidly mounted.",
+      "action": "Remains anchored relative to the camera during aircraft travel.",
+      "state_changes": "Material colors, wrapping and securing band remain consistent throughout 0:00-0:05.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Black propeller blades rotating above the foreground aircraft support.",
+      "appearance_details": "Black propeller blades appear as long, thin horizontal and curved streaks across the sky, with broader blade forms near the motor. Repeated streaks are motion and sensor artifacts, not separate stationary rods.",
+      "relationship": "Mechanically connected to the visible motor assembly.",
+      "location": "Across the upper and middle sky, extending from the left foreground motor region.",
+      "relative_size": "Prominent elongated traces spanning much of the sky.",
+      "orientation": "Apparent blade angles and curved streak shapes vary with rotation and fisheye projection.",
+      "pose": "Rotating.",
+      "action": "Rotates continuously throughout 0:00-0:05.",
+      "state_changes": "Blade silhouettes and streak positions vary between samples while the blades retain their black appearance.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": "",
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Roadway occupying the right side and receding toward the center-right distance.",
+      "appearance_details": "Dark gray asphalt with pale dashed lane markings and curbside lines. Thin, uneven white snow dusting leaves the asphalt texture and road markings legible.",
+      "relationship": "Runs alongside the pedestrian sidewalk.",
+      "location": "Right side and lower-right foreground, extending toward the distant horizon.",
+      "relative_size": "Large continuous ground surface.",
+      "orientation": "Recedes diagonally toward the center-right vanishing area with fisheye curvature.",
+      "pose": "Fixed ground surface.",
+      "action": "Passes through the view during continuous aircraft travel.",
+      "state_changes": "Nearby road details shift with camera movement; the roadway remains continuously visible through 0:05.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Paved sidewalk with a raised curb and visible drainage openings beside the road.",
+      "appearance_details": "Light gray paving slabs with visible joints, a light gray concrete curb and dark drainage openings. Thin, uneven white snow dusting leaves paving joints, curb edges and drainage openings readable.",
+      "relationship": "Carries the pedestrian and separates the road from the shrub-lined bank; reflective water lies beyond the vegetation.",
+      "location": "Lower-middle foreground, curving toward center-right alongside the road.",
+      "relative_size": "Broad ground region beneath the pedestrian.",
+      "orientation": "Recedes along the road and bends under fisheye projection.",
+      "pose": "Fixed paved surface.",
+      "action": "Slides through the view as the aircraft travels along the corridor.",
+      "state_changes": "Foreground paving and curb details pass through the lower frame; drainage openings become visible near the closing sample.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Distant road vehicles, including a small boxy vehicle ahead near the curbside portion of the road.",
+      "appearance_details": "Dark painted vehicle bodies with small lighter details; exact colors, vehicle types and fine features are indistinct at this scale.",
+      "relationship": "Occupy the roadway beyond the pedestrian.",
+      "location": "Near the center-right road distance, with less distinct traffic farther along the road.",
+      "relative_size": "Small to very small.",
+      "orientation": "Generally aligned with the roadway.",
+      "pose": "On the road; wheel motion is unresolved.",
+      "action": "Remain visible ahead as the aircraft advances; independent motion or parking status is not clearly established.",
+      "state_changes": "Projected positions and apparent sizes vary slightly across 0:00-0:05; the prominent boxy vehicle remains ahead in the final sample.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": "",
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Roadside streetlights, distant utility poles and small sign panels.",
+      "appearance_details": "Slender gray metal poles with bent streetlight heads, fine dark utility lines and small pale sign panels with unreadable markings. Their narrow silhouettes remain recognizable through the snowfall.",
+      "relationship": "Fixed roadside infrastructure distributed along the road and sidewalk.",
+      "location": "Along the sidewalk and the distant road margins, projecting into the sky.",
+      "relative_size": "Slender midground elements diminishing into the distance.",
+      "orientation": "Upright in the scene with apparent curvature from the fisheye lens.",
+      "pose": "Fixed installations.",
+      "action": "Shift in projection with aircraft travel and mild roll.",
+      "state_changes": "Maintain their forms and roadside placement throughout 0:00-0:05.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": "",
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A tree-lined roadside corridor lies beneath a continuous overcast winter sky. Dense dark green shrubs and mature trees border the route, with low structures and an open horizon beyond the vegetation. A partly screened body of reflective water lies behind the shrub-lined pedestrian route, its boundary interrupted by foliage and the planted bank. Steady white snowflakes fall through the air, accompanied by gentle wintry haze in the distance. A thin, uneven white dusting settles on exposed horizontal edges and plant surfaces, leaving underlying textures visible. The water remains liquid, with muted reflections of the sky and adjacent trees; its full extent is concealed by the surrounding vegetation.",
+  "lighting": {
+    "conditions": "Diffuse daytime illumination beneath a continuous cool gray snow-cloud layer.",
+    "direction": "Broad overhead sky illumination without a distinct direct-sun direction.",
+    "shadows": "Soft, low-contrast shadows beneath foliage and aircraft fittings, with deeper shading inside occluded recesses.",
+    "illumination_effect": "White flakes catch diffuse skylight; a light snow dusting gently brightens exposed surfaces. Distant contrast is slightly softened, and visible liquid water carries subdued sky and tree reflections."
+  },
+  "aesthetics": {
+    "composition": "Leading lines along the road and sidewalk converging toward a central vanishing point, circular fisheye framing with black corner vignette",
+    "color_scheme": "Cool gray clouds, white snow, dark green vegetation and restrained natural material colors, with dark mechanical silhouettes against the sky.",
+    "mood_atmosphere": "Quiet, overcast winter roadside conditions with steady snowfall and clear nearby detail.",
+    "patterns": "Irregular falling flakes, mottled clouds, fine branching foliage and shallow, discontinuous snow deposits."
+  },
+  "cinematography": {
+    "camera_motion": "Continuous forward-looking aircraft-mounted travel with mild bobbing and roll. The sidewalk and pedestrian shift toward screen right; the pedestrian rises in the image through approximately four seconds, then sits slightly lower in the final sample. Nearby vegetation passes across the view while the distant road remains near the center-right vanishing area.",
+    "framing": "Exterior circular fisheye view with black peripheral corners, extensive sky above, aircraft hardware at left and the road and sidewalk below.",
+    "camera_angle": "Elevated exterior aircraft-mounted viewpoint looking forward and obliquely downward toward the sidewalk and road.",
+    "depth_of_field": "Broad depth of field, with distant fine detail softened by scale and haze.",
+    "focus": "Foreground aircraft fittings and the surrounding streetscape remain recognizable; rotating propellers exhibit pronounced motion and sensor distortion.",
+    "lens_focal_length": "Extreme wide-angle fisheye; exact focal length is not established."
+  },
+  "style_medium": "Photorealistic aircraft-mounted fisheye video with natural sensor texture and visible propeller motion artifacts.",
+  "artistic_style": "Naturalistic winter documentary footage with restrained contrast and physically plausible snowfall.",
+  "context": "Four synchronized aircraft-mounted fisheye perspectives record one continuous five-second movement along the same roadside corridor. Each perspective has its own visible portion of the surroundings and aircraft. The final recorded frame occurs at 4.9375 seconds and remains displayed through 5.0 seconds.",
+  "actions": [
+    {
+      "time": "0:00-0:01",
+      "description": "The pedestrian walks in the lower-middle sidewalk area and shifts rightward as the aircraft travels. The support stays anchored at left while black propeller blades generate varying streaks against the sky. White snowflakes fall with gravity, with projected trajectories following the camera orientation."
+    },
+    {
+      "time": "0:01-0:02",
+      "description": "The pedestrian shifts farther right and generally upward in the frame. Nearby shrubs and sidewalk details pass through the view; distant vehicles remain ahead. Snowfall continues with small distant flakes and occasional larger nearby flakes."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "Gaps behind the shrubs reveal portions of reflective liquid water beyond the paved sidewalk. The pedestrian continues walking while camera travel carries the figure farther toward center-right; propeller streaks vary continuously."
+    },
+    {
+      "time": "0:03-0:04",
+      "description": "Reflective liquid water is visible through the vegetation at left-middle, distinct from the nearer paving. The pedestrian is farther right and higher than at the start. Thin, uneven snow dusting leaves paving joints and road markings visible."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The pedestrian appears slightly lower in the final sample than at 0:04 while remaining near center-right. Water stays partly screened by vegetation, a small boxy vehicle remains ahead and foreground curb details enter the lower view. Travel and snowfall continue through the final recorded frame at 4.9375 seconds, displayed until 5.0 seconds."
+    }
+  ],
+  "text_and_signage_elements": [
+    "Small roadside sign panels are visible, but their lettering is not legible."
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:05",
+      "description": "One continuous exterior aircraft-mounted fisheye view along a roadside corridor in steady daytime snowfall. The walking pedestrian occupies the sidewalk, the support and rotating propeller occupy the left foreground and sky, and liquid water appears through openings behind the shrubs. Road markings, paving joints and underlying surface materials remain legible beneath thin, uneven snow dusting.",
+      "key_changes": "The pedestrian shifts rightward and generally upward through approximately 0:04, then slightly downward in the final sample. Vegetation openings reveal partially screened water around 0:02-0:04, with partial visibility continuing at the tail. Propeller streaks continually vary. The final frame at 4.9375 seconds is displayed through 5.0 seconds.",
+      "camera": "Continuous forward-looking travel with mild bobbing and roll; close aircraft supports remain anchored while roadside features shift with parallax."
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "Across 0:00-0:05, an elevated exterior aircraft-mounted fisheye camera travels along a roadside corridor beneath an overcast sky with steady falling white snow. Dark gray asphalt occupies the right, with pale lane markings remaining readable beneath thin, uneven white dusting. Light gray paving slabs form the sidewalk between the curb and dark green vegetation. A matte light gray aircraft support assembly fills the left foreground, with beige wrapping, a pale securing band and a matte black motor housing. Black propeller blades produce continuously varying curved and horizontal streaks across the sky. At 0:00, one pedestrian in a dark charcoal upper garment, blue-gray trousers and dark footwear walks in the lower-middle sidewalk area; a small boxy vehicle is visible ahead. Through 0:01-0:02, the pedestrian shifts rightward and generally upward as nearby shrubs pass through the view. Around 0:02-0:03, openings behind the shrubs reveal reflective liquid water beyond the paved sidewalk. Through 0:03-0:04, portions of this water remain visible at left-middle and the pedestrian reaches a higher position near center-right. From 0:04 to the final sample at 4.9375 seconds, the pedestrian appears slightly lower, water remains partly screened by vegetation and curbside drainage details become visible near the bottom. The last recorded frame is displayed from 4.9375 seconds until the 5.0-second end. Snow falls under gravity throughout, its projected direction following the camera orientation, with small distant flakes and occasional larger nearby flakes.",
+  "audio_description": "",
+  "resolution": {
+    "W": 1088,
+    "H": 1088
+  },
+  "aspect_ratio": "1,1",
+  "duration": "5s",
+  "fps": 16.0
+}

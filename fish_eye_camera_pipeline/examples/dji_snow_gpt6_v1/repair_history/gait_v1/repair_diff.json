@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/subjects/0/description",
+    "before": "One distant pedestrian walking along the sidewalk beside the road.",
+    "after": "One distant pedestrian moving on foot along the sidewalk beside the road."
+  },
+  {
+    "path": "/subjects/0/pose",
+    "before": "Upright with alternating leg positions during walking.",
+    "after": "Upright with alternating leg positions during movement on foot."
+  },
+  {
+    "path": "/subjects/0/action",
+    "before": "Walks along the sidewalk while aircraft travel shifts the person's projected position.",
+    "after": "Moves on foot along the sidewalk while aircraft travel shifts the person's projected position."
+  },
+  {
+    "path": "/actions/0/description",
+    "before": "The pedestrian walks in the lower-middle sidewalk area and shifts rightward as the aircraft travels. The support stays anchored at left while black propeller blades generate varying streaks against the sky. White snowflakes fall with gravity, with projected trajectories following the camera orientation.",
+    "after": "The pedestrian moves on foot in the lower-middle sidewalk area and shifts rightward as the aircraft travels. The support stays anchored at left while black propeller blades generate varying streaks against the sky. White snowflakes fall with gravity, with projected trajectories following the camera orientation."
+  },
+  {
+    "path": "/actions/2/description",
+    "before": "Gaps behind the shrubs reveal portions of reflective liquid water beyond the paved sidewalk. The pedestrian continues walking while camera travel carries the figure farther toward center-right; propeller streaks vary continuously.",
+    "after": "Gaps behind the shrubs reveal portions of reflective liquid water beyond the paved sidewalk. The pedestrian continues moving on foot while camera travel carries the figure farther toward center-right; propeller streaks vary continuously."
+  },
+  {
+    "path": "/segments/0/description",
+    "before": "One continuous exterior aircraft-mounted fisheye view along a roadside corridor in steady daytime snowfall. The walking pedestrian occupies the sidewalk, the support and rotating propeller occupy the left foreground and sky, and liquid water appears through openings behind the shrubs. Road markings, paving joints and underlying surface materials remain legible beneath thin, uneven snow dusting.",
+    "after": "One continuous exterior aircraft-mounted fisheye view along a roadside corridor in steady daytime snowfall. The pedestrian moving on foot occupies the sidewalk, the support and rotating propeller occupy the left foreground and sky, and liquid water appears through openings behind the shrubs. Road markings, paving joints and underlying surface materials remain legible beneath thin, uneven snow dusting."
+  },
+  {
+    "path": "/temporal_caption",
+    "before": "Across 0:00-0:05, an elevated exterior aircraft-mounted fisheye camera travels along a roadside corridor beneath an overcast sky with steady falling white snow. Dark gray asphalt occupies the right, with pale lane markings remaining readable beneath thin, uneven white dusting. Light gray paving slabs form the sidewalk between the curb and dark green vegetation. A matte light gray aircraft support assembly fills the left foreground, with beige wrapping, a pale securing band and a matte black motor housing. Black propeller blades produce continuously varying curved and horizontal streaks across the sky. At 0:00, one pedestrian in a dark charcoal upper garment, blue-gray trousers and dark footwear walks in the lower-middle sidewalk area; a small boxy vehicle is visible ahead. Through 0:01-0:02, the pedestrian shifts rightward and generally upward as nearby shrubs pass through the view. Around 0:02-0:03, openings behind the shrubs reveal reflective liquid water beyond the paved sidewalk. Through 0:03-0:04, portions of this water remain visible at left-middle and the pedestrian reaches a higher position near center-right. From 0:04 to the final sample at 4.9375 seconds, the pedestrian appears slightly lower, water remains partly screened by vegetation and curbside drainage details become visible near the bottom. The last recorded frame is displayed from 4.9375 seconds until the 5.0-second end. Snow falls under gravity throughout, its projected direction following the camera orientation, with small distant flakes and occasional larger nearby flakes.",
+    "after": "Across 0:00-0:05, an elevated exterior aircraft-mounted fisheye camera travels along a roadside corridor beneath an overcast sky with steady falling white snow. Dark gray asphalt occupies the right, with pale lane markings remaining readable beneath thin, uneven white dusting. Light gray paving slabs form the sidewalk between the curb and dark green vegetation. A matte light gray aircraft support assembly fills the left foreground, with beige wrapping, a pale securing band and a matte black motor housing. Black propeller blades produce continuously varying curved and horizontal streaks across the sky. At 0:00, one pedestrian in a dark charcoal upper garment, blue-gray trousers and dark footwear moves on foot in the lower-middle sidewalk area; a small boxy vehicle is visible ahead. Through 0:01-0:02, the pedestrian shifts rightward and generally upward as nearby shrubs pass through the view. Around 0:02-0:03, openings behind the shrubs reveal reflective liquid water beyond the paved sidewalk. Through 0:03-0:04, portions of this water remain visible at left-middle and the pedestrian reaches a higher position near center-right. From 0:04 to the final sample at 4.9375 seconds, the pedestrian appears slightly lower, water remains partly screened by vegetation and curbside drainage details become visible near the bottom. The last recorded frame is displayed from 4.9375 seconds until the 5.0-second end. Snow falls under gravity throughout, its projected direction following the camera orientation, with small distant flakes and occasional larger nearby flakes."
+  }
+]

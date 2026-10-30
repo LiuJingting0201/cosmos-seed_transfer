@@ -1,0 +1,29 @@
+{
+  "cosmos_checkout": "/root/sam31/cosmos",
+  "views_root": "/root/sam31/data/dji_weather_rwy_standard/rwy_split2",
+  "experiment_root": "/root/liujingting/cosmos-gpt6-weather-20261030/multiview/outputs/snow",
+  "user_prompt": "将场景变成明显的大雪天气，雪势较大，持续降雪，画面中清楚可见大量雪花和积雪倾向；保持道路、植被、建筑、相机运动和原有几何结构不变",
+  "prompt_set": "v1",
+  "run_name": "gpt6_vllm_edge_snow_v1",
+  "control": "edge",
+  "seed": 2026,
+  "python": "python3",
+  "checkpoint_path": "/vemlp-demo-models/models/nvidia/Cosmos3-Nano/Cosmos3-Nano",
+  "reasoner_model": "cosmos3-nano-reasoner",
+  "reasoner_url": "http://127.0.0.1:8001/v1/chat/completions",
+  "reasoner_max_tokens": 12000,
+  "transfer_backend": "vllm_omni_gateway",
+  "gateway_url": "http://127.0.0.1:8002",
+  "upstream_url": "http://127.0.0.1:8000",
+  "gateway_timeout_sec": 21600,
+  "no_diffusion_cache": false,
+  "editor_provider": "codex-local",
+  "editor_model": "gpt-6-astra",
+  "editor_url": "local-codex-over-ssh",
+  "editor_api_key_env": "",
+  "bridge_queue": "/root/liujingting/cosmos-gpt6-weather-20261030/queue/snow",
+  "revision_feedback": {
+    "snow_intensity": "Make the snowfall visibly heavier than a light flurry: many clearly visible snowflakes and a strong continuous snow atmosphere, while preserving source-grounded road geometry, objects, camera motion and cross-view identity.",
+    "clip_tail": "Inspect the true last frame and describe the closing action only when supported by the supplied evidence; report uncertainty rather than inventing unseen details."
+  }
+}

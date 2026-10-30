@@ -1,0 +1,18 @@
+{
+  "status": "fail",
+  "findings": [
+    "The prompt repeatedly specifies walking as a definite action, although the sampled pedestrian poses establish locomotion without reliably distinguishing walking from jogging. This unsupported specificity affects subjects, actions, segments and the temporal caption; the other view of this pedestrian explicitly acknowledges the gait uncertainty.",
+    "The rightward pedestrian trajectory, final slight downward shift, aircraft materials, propeller artifacts and partially screened water otherwise agree with the images. The requested snowfall and shared winter setting are consistent."
+  ],
+  "evidence": [
+    "0.000 and 1.000 s: The pedestrian is small, with bent arms and differing leg positions. These isolated poses do not establish a walking gait.",
+    "2.000 and 3.000 s: The pedestrian continues shifting rightward; openings behind the shrubs reveal reflective water. The sampled poses still do not resolve the gait cycle.",
+    "4.000 s: The pedestrian appears higher and farther right than initially; the small boxy vehicle remains ahead.",
+    "4.9375 s: The pedestrian sits slightly lower than at 4.000 s, remains visible and continues the unfinished traversal.",
+    "Across all six samples, the light gray support, beige wrapping, pale securing band and dark motor remain recognizable while the propeller streaks vary."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_front_left_original/modified_prompt.json": "f7b83bb3cde830579c69cf7ed76d8c6dd221404cfd7c6d1f121af464152b4717"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/8dc930db0b0348e2affc47d819618f28"
+}

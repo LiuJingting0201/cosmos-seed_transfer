@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "findings": [
+    "Aircraft supports, cylindrical housing, black tubing, mounting hardware, propellers and roadside infrastructure retain supported identities and appearances. Snowfall and light accumulation stay within the requested scope.",
+    "The shared water description makes no unsupported claim of visibility in this perspective. The prompt preserves ongoing travel without inventing a completed maneuver."
+  ],
+  "evidence": [
+    "0.0–1.0 s: Light gray aircraft structure, black curved tubing and pale mounting rails occupy the lower foreground; a prominent lattice tower and a slimmer tower to its left remain visible beyond the road.",
+    "2.0–3.0 s: Propeller traces change while distant towers remain comparatively stable; nearby road markings show downward displacement with lateral parallax and mild camera attitude changes.",
+    "4.0–4.9375 s: The right-side sidewalk, dense vegetation, distant signs and foreground housing remain visible, with shifting foliage overlaps and no distinct stopping or turning event.",
+    "The 1088×1088 resolution, 16 fps and final-frame display interval match the supplied metadata."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_rear_left_original/modified_prompt.json": "3c56789ab00ae65d00b3a59c679eb3bec9d8e1718a5e5ede559e3a2375e783db"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4"
+}

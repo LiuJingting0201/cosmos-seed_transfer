@@ -1,0 +1,110 @@
+```json
+{
+  "scene_imagination": "focus: forward-looking fisheye POV from aircraft, snowfall daytime. define: circular frame with black corners, cool gray sky, asphalt road right, sidewalk and hedges left. visualize: rotating propeller leaves curved traces across sky; small pedestrian on sidewalk in charcoal top, blue-gray trousers; light gray support structure left foreground with beige wrapping. refine: dashed lane lines, yellow markings distant, utility fencing far off. analyze: timing — pedestrian shifts rightward 0:00-0:01, continues to center-right 0:01-0:02, hedge opens revealing water 0:02-0:03, water clearly visible left-middle 0:03-0:04, pedestrian sits lower by 0:05. clarify: mild camera bobbing/roll, diffuse winter light, faint reddish-brown blur upper-right sky. plan: single continuous segment 0:00-0:05, one subject (pedestrian), ambient mechanical audio plus wind and snow.",
+  "temporal_caption": "At 0:00, the fisheye view opens on a snowy urban corridor: gray asphalt road runs along the right with pale dashed lane lines receding toward a vanishing point at center-right, a light gray sidewalk curves along the curb bordered by dark green hedges, a light gray aircraft support rises through the left foreground with beige wrapping and a pale securing band, and rotating propeller blades leave long curved traces across the overcast sky. A small dark boxy vehicle is parked near the curb ahead, and a pedestrian in a charcoal upper garment, blue-gray trousers, and dark footwear walks along the lower-middle sidewalk. At 0:01, the pedestrian shifts rightward as the aircraft advances; nearby hedge masses begin sliding across the frame due to forward motion. At 0:02, the pedestrian reaches the center-right portion of the image and a gap behind shrubs begins exposing reflective water beneath the foliage. At 0:03, the water becomes clearly visible through vegetation in the left-middle scene, separate from the nearer sidewalk, while the pedestrian has moved farther right and higher in the image than at the start. At 0:04, the pedestrian remains beside the curb near center-right but sits slightly lower in the final sample than at four seconds; water still peeks through foliage toward the left, and the small vehicle stays ahead. At 0:05, the frame holds steady on this configuration through the last recorded instant at 4.9375 seconds extending to 5.0 seconds. Throughout, white snowflakes fall through open spaces around the aircraft and across the distant road, mild camera bobbing and roll accompany continuous travel, and propeller traces vary in length and curvature across the sky.",
+  "audio_description": "Continuous low-frequency aircraft engine drone and propeller whine 0:00-0:05, layered with soft wind buffeting against the fuselage. Faint hiss of falling snow 0:00-0:05. Distant muffled traffic hum 0:00-0:05. Subtle mechanical vibration rumble 0:00-0:05. No dialogue, no music.",
+  "subjects": [
+    {
+      "description": "A small adult pedestrian walking along the sidewalk, wearing a dark charcoal upper garment, blue-gray trousers, and dark footwear, with a small lighter patch on the torso",
+      "appearance_details": "Small lighter patch on torso area, indistinct fine facial features due to distance and motion blur",
+      "relationship": "Incidental passerby relative to the aircraft's forward motion",
+      "location": "Lower-middle sidewalk area shifting toward center-right",
+      "relative_size": "Small within frame",
+      "orientation": "Profile, facing roughly away from camera down the sidewalk",
+      "pose": "Upright walking posture with alternating gait strides",
+      "action": "Walking along the sidewalk",
+      "state_changes": "Shifts rightward from lower-middle to center-right between 0:00 and 0:04, then sits slightly lower in the frame by 0:05",
+      "clothing": "Dark charcoal upper garment, blue-gray trousers, dark footwear",
+      "expression": "",
+      "gender": "Unknown",
+      "age": "Adult",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 2,
+      "number_of_legs": 2
+    },
+    {
+      "description": "Light gray aircraft support structure rising through the left foreground toward a dark motor assembly, wrapped partially in beige material with a pale securing band",
+      "appearance_details": "Beige wrapping on lower section, pale securing band, dark motor assembly above",
+      "relationship": "Foreground element anchoring the aircraft POV perspective",
+      "location": "Left foreground",
+      "relative_size": "Large within frame",
+      "orientation": "Vertical, extending upward out of frame",
+      "pose": "Static structural element",
+      "action": "Remains fixed relative to camera",
+      "state_changes": "No significant change.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A snowy urban street corridor seen from a moving aircraft during steady daytime snowfall; gray asphalt roadway extends along the right side with pale dashed lane lines and yellow markings into a distant center-right vanishing point, a light gray sidewalk runs along the curb bordered by dense dark green hedges and trees, slender streetlights follow the corridor, a small dark boxy vehicle sits near the curb ahead, and reflective liquid water lies beyond the sidewalk shrubs partly hidden by vegetation. Utility structures and fencing are faint along the distant road under a heavily clouded cool gray sky.",
+  "lighting": {
+    "conditions": "Diffuse natural daylight under heavy overcast winter clouds",
+    "direction": "Soft, omnidirectional top-down skylight",
+    "shadows": "Soft, low-contrast shadows",
+    "illumination_effect": "Even ambient illumination with subtle translucency through wet foliage and reflections on water"
+  },
+  "aesthetics": {
+    "composition": "Leading lines along the road and sidewalk converging toward a central vanishing point, circular fisheye framing with black corner vignette",
+    "color_scheme": "Cool grays, muted blues, deep greens, with beige accents on the aircraft wrap and a faint reddish-brown blur in the upper-right sky",
+    "mood_atmosphere": "Calm, observational, slightly melancholic winter travel mood",
+    "patterns": "Repeating dashed lane markings and rhythmic hedge massings along the corridor"
+  },
+  "cinematography": {
+    "camera_motion": "Forward tracking POV with mild bobbing and roll",
+    "framing": "Wide",
+    "camera_angle": "Eye-level from aircraft cabin",
+    "depth_of_field": "Deep",
+    "focus": "Sharp throughout from foreground aircraft structure to distant road",
+    "lens_focal_length": "Wide-angle fisheye ~16mm equivalent"
+  },
+  "style_medium": "Photoreal live-action aerial POV footage",
+  "artistic_style": "Naturalistic documentary aviation cinematography",
+  "context": "Forward-looking aircraft cockpit or cabin observation during a slow taxi or low-altitude pass along a snowy city street, capturing incidental ground activity and environmental detail",
+  "actions": [
+    {
+      "time": "0:00-0:01",
+      "description": "Pedestrian occupies lower-middle sidewalk and shifts rightward as the aircraft advances; foreground support remains fixed to the camera."
+    },
+    {
+      "time": "0:01-0:02",
+      "description": "Pedestrian continues toward the center-right portion of the frame; nearby hedge masses shift across the view."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "An opening behind the shrubs exposes more of the reflective water, partially crossed by aircraft structure and vegetation."
+    },
+    {
+      "time": "0:03-0:04",
+      "description": "Water is clearly visible behind the hedge in the left-middle scene, separate from the sidewalk nearer the camera; pedestrian is farther right and higher in the image."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "Pedestrian remains beside the curb near center-right but sits slightly lower in the final sample than at four seconds; water still partly visible through vegetation toward the left, small vehicle remains ahead."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:05",
+      "description": "Single continuous forward-looking fisheye aircraft POV through steady daytime snowfall along a snowy urban corridor, with a pedestrian walking along the sidewalk, an aircraft support structure in the left foreground, and reflective water glimpsed behind shrubs.",
+      "key_changes": "Pedestrian progressively moves from lower-middle to center-right and lowers slightly by 0:05; hedge masses slide past; water becomes increasingly visible through vegetation after 0:02.",
+      "camera": "Forward tracking POV with mild bobbing and roll, maintaining consistent altitude and heading relative to the street."
+    }
+  ],
+  "transitions": [],
+  "resolution": {"W": 1088, "H": 1088},
+  "aspect_ratio": "1,1",
+  "duration": "0:05",
+  "fps": 16
+}
+```

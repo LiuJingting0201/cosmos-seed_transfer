@@ -1,0 +1,131 @@
+{
+  "video_pass_count": 4,
+  "expected_count": 4,
+  "full_control_verification": false,
+  "views": {
+    "rwy_split2__rwy_split2_left_left_original": {
+      "video_ok": true,
+      "full_control_verification": false,
+      "source": {
+        "frames": 80,
+        "width": 1088,
+        "height": 1088,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 9.1329,
+        "tail_frozen": false
+      },
+      "output": {
+        "frames": 80,
+        "width": 960,
+        "height": 960,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 10.3026,
+        "tail_frozen": false
+      },
+      "status": "completed",
+      "request_id": "video_gen_a3ac9c31f9f148f6ba84884d2a279f62",
+      "spec_resolution_tier": "720",
+      "source_dimensions_preserved": false,
+      "control_export_present": false,
+      "output_sha256": "478a7169ed17959644920048b22f1ffbc6af40b413d5e93986c3fd58c4bb0de5",
+      "note": "Control alignment is unverified; semantic quality requires visual inspection.",
+      "prompt_transport_exact": true,
+      "prompt_token_budget_verified": true
+    },
+    "rwy_split2__rwy_split2_v_front_left_original": {
+      "video_ok": true,
+      "full_control_verification": false,
+      "source": {
+        "frames": 80,
+        "width": 1088,
+        "height": 1088,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 8.3698,
+        "tail_frozen": false
+      },
+      "output": {
+        "frames": 80,
+        "width": 960,
+        "height": 960,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 12.2265,
+        "tail_frozen": false
+      },
+      "status": "completed",
+      "request_id": "video_gen_15bf6fbef7df40e59ffa36ec83ec5209",
+      "spec_resolution_tier": "720",
+      "source_dimensions_preserved": false,
+      "control_export_present": false,
+      "output_sha256": "416c7f678b99a60b3affc3823e08bf8c115011dee3795dd3efab145c79069223",
+      "note": "Control alignment is unverified; semantic quality requires visual inspection.",
+      "prompt_transport_exact": true,
+      "prompt_token_budget_verified": true
+    },
+    "rwy_split2__rwy_split2_v_rear_left_original": {
+      "video_ok": true,
+      "full_control_verification": false,
+      "source": {
+        "frames": 80,
+        "width": 1088,
+        "height": 1088,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 4.1662,
+        "tail_frozen": false
+      },
+      "output": {
+        "frames": 80,
+        "width": 960,
+        "height": 960,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 5.7164,
+        "tail_frozen": false
+      },
+      "status": "completed",
+      "request_id": "video_gen_770ea8bae9c04f14acff50577cf21dcd",
+      "spec_resolution_tier": "720",
+      "source_dimensions_preserved": false,
+      "control_export_present": false,
+      "output_sha256": "7f309368b5935b0716385a8c69af73e7747e6ae5dd3c512c86f328dc20599a86",
+      "note": "Control alignment is unverified; semantic quality requires visual inspection.",
+      "prompt_transport_exact": true,
+      "prompt_token_budget_verified": true
+    },
+    "rwy_split2__rwy_split2_v_up_left_original": {
+      "video_ok": true,
+      "full_control_verification": false,
+      "source": {
+        "frames": 80,
+        "width": 1088,
+        "height": 1088,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 6.948,
+        "tail_frozen": false
+      },
+      "output": {
+        "frames": 80,
+        "width": 960,
+        "height": 960,
+        "fps": 16.0,
+        "duration_s": 5.0,
+        "tail_mean_absdiff": 9.425,
+        "tail_frozen": false
+      },
+      "status": "completed",
+      "request_id": "video_gen_d42dd7d5df5941e3a4887e8cb14a792b",
+      "spec_resolution_tier": "720",
+      "source_dimensions_preserved": false,
+      "control_export_present": false,
+      "output_sha256": "ed4a6a68e2ece5cc02ff921dbff8165752e567a6d32a43334de590de2c764d1f",
+      "note": "Control alignment is unverified; semantic quality requires visual inspection.",
+      "prompt_transport_exact": true,
+      "prompt_token_budget_verified": true
+    }
+  }
+}

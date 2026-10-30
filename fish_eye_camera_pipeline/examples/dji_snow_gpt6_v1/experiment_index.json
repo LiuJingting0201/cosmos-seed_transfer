@@ -1,0 +1,17 @@
+{
+  "config": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/configs/dji_snow_gpt6_v1.json",
+  "source_root": "/root/sam31/data/dji_weather_rwy_standard/rwy_split2",
+  "control": "edge",
+  "prompt_set": "v1",
+  "run_name": "gpt6_vllm_edge_v1",
+  "seed": 2026,
+  "no_diffusion_cache": false,
+  "scenes": {
+    "rwy_split2": [
+      "rwy_split2_left_left_original",
+      "rwy_split2_v_front_left_original",
+      "rwy_split2_v_rear_left_original",
+      "rwy_split2_v_up_left_original"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "subjects": [
+    {
+      "description": "A small adult pedestrian walking along the left side of a paved sidewalk, wearing a dark charcoal upper garment, blue-gray trousers, and dark footwear.",
+      "appearance_details": "Indistinct facial features due to distance and oblique perspective; arms swing naturally with gait; body partially silhouetted against pale snow-dusted pavement.",
+      "relationship": "Lone passerby traversing the roadside environment observed from above by the aircraft camera.",
+      "location": "Left portion of the sidewalk, mid-frame vertically",
+      "relative_size": "Small within frame",
+      "orientation": "Facing roughly away from or across the sidewalk, profile not clearly resolved",
+      "pose": "Upright walking posture, arms swinging at sides",
+      "action": "Walking steadily along the sidewalk",
+      "state_changes": "Shifts upward and slightly left from 0:00-0:01; remains near left side through 0:05; height within frame increases slightly compared to start.",
+      "clothing": "Dark charcoal jacket or sweater, blue-gray trousers, dark shoes",
+      "expression": "",
+      "gender": "Unknown",
+      "age": "Adult",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 2,
+      "number_of_legs": 2
+    }
+  ],
+  "background_setting": "A tree-lined roadside corridor lies beneath a continuous overcast winter sky. Dense dark green shrubs and mature trees border the route, with low structures and an open horizon beyond the vegetation. A partly screened body of reflective water lies behind the shrub-lined pedestrian route, its boundary interrupted by foliage and the planted bank. Steady white snowflakes fall through the air, accompanied by gentle wintry haze in the distance. A thin, uneven white dusting settles on exposed horizontal edges and plant surfaces, leaving underlying textures visible. The water remains liquid, with muted reflections of the sky and adjacent trees; its full extent is concealed by the surrounding vegetation.",
+  "lighting": {
+    "conditions": "Diffuse daytime illumination beneath a continuous cool gray snow-cloud layer.",
+    "direction": "Broad overhead sky illumination without a distinct direct-sun direction.",
+    "shadows": "Soft, low-contrast shadows beneath foliage and aircraft fittings, with deeper shading inside occluded recesses.",
+    "illumination_effect": "White flakes catch diffuse skylight; a light snow dusting gently brightens exposed surfaces. Distant contrast is slightly softened, and visible liquid water carries subdued sky and tree reflections."
+  },
+  "aesthetics": {
+    "composition": "Circular fisheye framing with strong curved leading lines from road, curb, and sidewalk converging toward the lens center; subject anchored on left third",
+    "color_scheme": "Cool gray clouds, white snow, dark green vegetation and restrained natural material colors, with dark mechanical silhouettes against the sky.",
+    "mood_atmosphere": "Quiet, overcast winter roadside conditions with steady snowfall and clear nearby detail.",
+    "patterns": "Irregular falling flakes, mottled clouds, fine branching foliage and shallow, discontinuous snow deposits."
+  },
+  "cinematography": {
+    "camera_motion": "Continuous oblique downward travel alongside the roadside. Curb details and drainage grates traverse predominantly from screen right toward screen left, with gentle changes in fisheye tilt. The pedestrian shifts toward the upper-left portion of the image overall. Foreground aircraft edges remain tied to the camera.",
+    "framing": "Wide oblique overhead fisheye shot",
+    "camera_angle": "High-angle oblique looking down at the roadside",
+    "depth_of_field": "Deep focus across multiple planes",
+    "focus": "Sharp on roadway, sidewalk, and pedestrian; lens edges naturally vignetted",
+    "lens_focal_length": "Ultra wide fisheye, approximately 8mm equivalent with heavy barrel distortion"
+  },
+  "style_medium": "Photorealistic aircraft-mounted fisheye video with natural sensor texture and visible propeller motion artifacts.",
+  "artistic_style": "Naturalistic winter documentary footage with restrained contrast and physically plausible snowfall.",
+  "context": "Four synchronized aircraft-mounted fisheye perspectives record one continuous five-second movement along the same roadside corridor. Each perspective has its own visible portion of the surroundings and aircraft. The final recorded frame occurs at 4.9375 seconds and remains displayed through 5.0 seconds.",
+  "actions": [
+    {
+      "time": "0:00-0:01",
+      "description": "Pedestrian shifts upward and slightly left along the left side of the sidewalk as curb and paving details pass beneath the camera."
+    },
+    {
+      "time": "0:01-0:02",
+      "description": "Same pedestrian remains near the left edge; vegetation gaps begin to open more clearly revealing reflective water beyond."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "Bright sky reflections become more conspicuous on the water; curbside grates enter the more central part of the view from the right."
+    },
+    {
+      "time": "0:03-0:04",
+      "description": "Grates and road details continue drifting leftward; reflective water is intermittently exposed across the lower region, occluded by tree crowns and shrubs."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "Pedestrian remains visible near the left side, higher than at the start; grates sit farther left, a rectangular brown inset appears toward the right end of the sidewalk, vegetation still screens sections of water and bank."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Opening establishment of the snowy roadside from the moving aircraft; pedestrian walks along the left sidewalk while flanking vegetation begins to reveal reflective water gaps.",
+      "key_changes": "Pedestrian position shifts upward and left; vegetation gaps open, exposing more water reflections.",
+      "camera": "Forward-moving aircraft travel with gentle tilt; fisheye distortion fixed; no cuts."
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:04",
+      "description": "Sky reflections intensify on the water and curbside grates enter the central view before drifting leftward as the aircraft continues forward.",
+      "key_changes": "Water reflections become prominent; grates move from right into central-left area of frame.",
+      "camera": "Continuous forward travel; framing and angle unchanged."
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "Final beat: pedestrian elevated on the left, grates further left, rectangular brown inset visible at the right end of the sidewalk, vegetation still screening water and bank.",
+      "key_changes": "Brown inset becomes visible; pedestrian appears higher in frame.",
+      "camera": "Continues steady forward motion with gentle tilt; no cuts."
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "At 0:00, the fisheye frame opens on a snowy roadside seen from a moving aircraft; a small pedestrian in a charcoal jacket and blue-gray trousers walks along the left side of the light gray sidewalk, arms swinging with each step, while steady white flakes drift downward across the curved lens. At 0:01, the pedestrian shifts upward and slightly left within the frame as paving joints and round dark road covers pass beneath the camera; the raised curb separates the gray asphalt road above from the sidewalk below. At 0:02, the same figure remains near the left edge of the sidewalk, and openings in the dense dark-green shrubs begin to reveal more reflective liquid water beyond. At 0:03, bright sky reflections become more conspicuous on the water surface between the shrubs, and rectangular dark metal drainage grates enter the more central part of the view from the right. At 0:04, the grates and curbside details continue drifting leftward across the frame while the reflective water is intermittently exposed across the lower region, occluded by tree crowns and shrubbery. At 0:05, the pedestrian is still visible near the left side but higher than at the start; the grates sit farther left, a rectangular brown inset appears toward the right end of the sidewalk, and vegetation continues to screen sections of the water and bank. The last frame holds through 5.0 seconds with no cut, the camera-mounted fittings (dark curved housing upper rim, beige-wrapped angular support right edge, pale strut left) remaining fixed relative to the lens throughout.",
+  "audio_description": "Continuous low-frequency aircraft cabin hum 0:00-0:05, with subtle vibration rumble modulating gently with motion. Faint distant traffic murmur 0:00-0:05, low and muffled. Soft intermittent wind buffeting against the fuselage 0:01-0:03. Quiet mechanical creak of aircraft fittings around 0:02. No dialogue, no music; ambience is naturalistic and hushed, consistent with an interior high-altitude flight during daytime snowfall.",
+  "resolution": {
+    "W": 1088,
+    "H": 1088
+  },
+  "aspect_ratio": "1,1",
+  "duration": "5s",
+  "fps": 16.0
+}

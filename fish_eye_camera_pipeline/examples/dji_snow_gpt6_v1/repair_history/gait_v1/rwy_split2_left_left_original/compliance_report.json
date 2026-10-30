@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "findings": [
+    "The prompt accurately tracks the single pedestrian, leftward passage of drainage grates, changing water occlusion and late pavement inset. It appropriately leaves walking versus jogging unresolved.",
+    "Aircraft fittings, paving, roadway, vegetation and liquid water receive concrete appearance descriptions. Snowfall and light accumulation satisfy the requested weather change."
+  ],
+  "evidence": [
+    "0.000 s: One small pedestrian occupies the left sidewalk; the roadway lies above it, vegetation below, and gray supports with dark housings clip the image margins.",
+    "1.000 and 2.000 s: The pedestrian shifts upward and left overall; drainage grates approach from the right, and reflective water becomes exposed through lower foliage.",
+    "3.000 and 4.000 s: Grates progress leftward while vegetation alternately screens the reflective water.",
+    "4.9375 s: The pedestrian remains visible at left; a brown rectangular pavement inset is clear at right, with a localized water opening below the planted bank.",
+    "The supplied metadata confirms 1088×1088, 16 fps, 80 frames and a 5.0-second duration, including the final frame interval beginning at 4.9375 s."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_left_left_original/modified_prompt.json": "23cff41d9819e4636ea8b7d5a4e71ef3a7f20da0c876fa4ec8ab48a756d9bd3a"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/8dc930db0b0348e2affc47d819618f28"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "findings": [
+    "The prompt correctly preserves the sky-dominated upward view, dark blue-gray housing, peripheral supports and variable black propeller traces without inferring rotor counts.",
+    "Snow trajectories account for the upward camera orientation. Peripheral ground, vegetation, lamps and signage are described without asserting that a pedestrian or water surface is visible."
+  ],
+  "evidence": [
+    "0.000 and 1.000 s: The rounded dark blue-gray housing remains at the upper-right rim; a tiny inverted blue sign and compressed roadside scenery appear near the upper perimeter.",
+    "2.000 and 3.000 s: The central cloud field dominates, with different elongated black blade traces crossing it and small aircraft fittings interrupting the rim.",
+    "4.000 s: Vegetation and lamp silhouettes shift around the perimeter while the housing remains anchored relative to the camera.",
+    "4.9375 s: The upward composition persists with changed propeller traces and peripheral scenery; no distinct pedestrian or water surface is identifiable.",
+    "The shared snow-cloud lighting and winter background agree with the other prompts, and the output timing and dimensions match the supplied metadata."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_up_left_original/modified_prompt.json": "97323119664e5e02a52b076ecf176565026c8f73633dcc51ef6489a30114dcd7"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/8dc930db0b0348e2affc47d819618f28"
+}

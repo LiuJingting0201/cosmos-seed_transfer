@@ -1,0 +1,16 @@
+{
+  "provider": "codex-local",
+  "endpoint": "local-codex-over-ssh",
+  "requested_model": "gpt-6-astra",
+  "response_model": null,
+  "response_id": "01a0a924-c626-7661-bbdb-fa11805d4ac6",
+  "elapsed_s": 166.887,
+  "usage": {
+    "input_tokens": 32674,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5147,
+    "reasoning_output_tokens": 1885
+  },
+  "status": "completed"
+}

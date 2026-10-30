@@ -1,0 +1,153 @@
+{
+  "scene_imagination": "focus: rear-facing fisheye from moving aircraft, steady daytime snowfall. define: circular wide-angle with black corners, gray overcast sky dominating upper frame, rotating propeller traces near upper-left and horizon. visualize: gray asphalt road lower-middle with pale dashed lines and paired yellow markings receding right; entrance area, low structures, sparse trees, utility poles, one tall lattice pylon center-horizon, slimmer pylon left. refine: dense dark green vegetation right edge with reddish-brown roof peeking in; small blue sign distant unreadable. analyze: foreground assembly — light gray supports, rounded cylindrical housing lower-right, angled strut toward dark motor, beige joint wrapping, metallic rails bottom, black curved tube sweeping lower-left meeting short upright fitting. clarify: natural vibration, restrained snowy haze, soft overhead diffuse light, no legible added text. plan timing: 0:00-0:01 stable horizon, paint slides down; 0:01-0:02 attitude shift, blade traces reposition; 0:02-0:03 travel continues, pylon central; 0:03-0:04 road details pass through lower frame; 0:04-0:05 final hold with minor shifts. lock palette: cool grays, muted greens, beige hardware, black fittings. ensure 16fps, 1088x1088 square, duration 0:05.",
+  "temporal_caption": "At 0:00, the fisheye view opens on a gray overcast sky filling the upper half of the circular frame, two faint black propeller traces crossing near the upper-left edge and near the horizon; below, a gray asphalt road with pale dashed markings and paired yellow lines extends toward a vanishing point near the right, flanked by an entrance area, low boundary structures, sparse trees, slender utility poles, and a prominent tall lattice pylon centered on the horizon with a slimmer pylon to its left; dense dark green vegetation hugs the right edge with a partly visible reddish-brown sloping roof edge within it; a small blue rectangular road sign sits far down-road. The aircraft's foreground fills much of the lower frame: light gray supports and a rounded light gray cylindrical housing dominate the lower-right, an angled light gray strut rises toward a dark motor, beige wrapping encircles a lower joint, pale metallic mounting rails run along the bottom, a black curved tube sweeps across the lower-left foreground and meets a short upright black fitting. Snowflakes drift at varying depths through the open background. At 0:01, slight camera attitude changes tilt the horizon and shift the right-side foliage; the black blade traces now occupy different curved positions across the upper portion of the circle. At 0:02, travel continues steadily; the prominent central pylon remains near the middle of the horizon, the narrow light gray sidewalk continues along the right edge, and the angled foreground strut crosses over the distant scene. At 0:03, road markings and surface details continue sliding through the lower portion of the frame while the dense right-side foliage holds its position. At 0:04, the pylon, distant blue sign, sidewalk, and foreground assembly remain visible with subtle positional shifts as the aircraft advances; snowflakes continue passing through the open background. At 0:05, the final frame at 4.937 seconds holds nearly identical composition with only minor motion blur and shifting blade-trace curves, ending on the same steady forward travel through the snowy roadside landscape.",
+  "audio_description": "Continuous low-frequency mechanical hum of aircraft propulsion and propeller rotation 0:00-0:05, slightly modulating with altitude changes; steady high-pitched whir of spinning blades layered underneath 0:00-0:05; soft aerodynamic rush and wind buffeting against the fuselage 0:00-0:05; faint intermittent creak of structural components around 0:02 and 0:04 due to natural vibration; very distant muffled traffic or ambient road noise barely audible beneath the engine bed 0:01-0:04; no dialogue, no music, no legible added text.",
+  "subjects": [
+    {
+      "description": "Aircraft-mounted camera assembly seen from behind, featuring light gray support struts, a rounded light gray cylindrical housing in the lower-right, an angled light gray strut rising toward a dark motor, beige wrapping around a lower joint, pale metallic mounting rails and fasteners along the bottom edge, a black curved tube sweeping across the lower-left foreground, and a short upright black fitting where the tube meets the strut",
+      "appearance_details": "Stable material colors — light gray metal/plastic, beige fabric/insulation, black painted tubing; overlaps partially obscure the road behind them",
+      "relationship": "Host platform for the camera; defines the foreground framing of the entire shot",
+      "location": "Foreground, occupying lower-right and lower-left areas of the circular frame",
+      "relative_size": "Large within frame",
+      "orientation": "Rear-facing relative to the aircraft, pointing forward along the flight path",
+      "pose": "Fixed structural configuration attached to the aircraft body",
+      "action": "Holding steady as the aircraft moves forward through the snowy landscape",
+      "state_changes": "No significant change.",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Tall lattice electricity pylon standing prominently near the middle of the horizon line, with a slimmer pylon to its left and fine power lines crossing between distant structures",
+      "appearance_details": "Dark gray/black lattice framework silhouetted against the pale overcast sky",
+      "relationship": "Distant landmark anchoring the horizon and providing scale",
+      "location": "Center to slightly right of center on the horizon line",
+      "relative_size": "Small within frame",
+      "orientation": "Vertical, facing camera",
+      "pose": "Static upright structure",
+      "action": "Remains stationary while appearing to drift slightly backward as the aircraft advances",
+      "state_changes": "Slight apparent positional shift relative to camera due to forward motion",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 2,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Gray asphalt roadway extending toward a distant vanishing area near the right, marked with pale dashed lane lines and paired yellow side lines, bordered by a narrow light gray sidewalk on the right and dense dark green vegetation beyond",
+      "appearance_details": "Thin white dusting of snow rests lightly on exposed edges and horizontal surfaces; lettering on a small blue rectangular road sign is too small to read",
+      "relationship": "Primary leading-line element guiding the eye into the distance",
+      "location": "Lower-middle background spanning the width of the frame",
+      "relative_size": "Medium within frame",
+      "orientation": "Receding away from camera toward the right vanishing point",
+      "pose": "Flat horizontal plane",
+      "action": "Road markings and surface slide downward through the lower portion of the frame as the aircraft travels forward",
+      "state_changes": "Continuous parallax-driven sliding of road features past the foreground assembly",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A rural roadside during steady daytime snowfall, viewed from a moving aircraft; a gray asphalt road with dashed and yellow markings runs through the lower-middle ground, flanked by an entrance area, low boundary structures, sparse trees, slender utility poles, lattice pylons including one tall central pylon and a slimmer pylon to its left, fine cross-wires, dense dark green vegetation along the right edge with a partly visible reddish-brown sloped roof edge nestled within it, and a thin discontinuous white dusting of snow resting on vegetation, roadside edges, and exposed horizontal surfaces under a cool gray overcast sky that fills the upper half of the circular fisheye frame",
+  "lighting": {
+    "conditions": "Natural overcast daylight diffused by heavy cloud cover and light snowfall",
+    "direction": "Soft, omnidirectional overhead illumination with no clear directional source",
+    "shadows": "Very soft, low-contrast shadows with minimal cast detail",
+    "illumination_effect": "Even diffuse glow on snow-dusted surfaces; subtle atmospheric haze limiting visibility at extreme distance"
+  },
+  "aesthetics": {
+    "composition": "Circular wide-angle fisheye framing with strong leading lines along the road converging toward the right vanishing point; foreground assembly anchors lower-right and lower-left",
+    "color_scheme": "Cool grays, muted whites, dark forest greens, beige hardware tones, and black fittings against a pale overcast sky",
+    "mood_atmosphere": "Calm, observational, slightly hushed and wintry due to steady snowfall and overcast light",
+    "patterns": "Repeating dashed road markings and rhythmic spacing of utility poles along the horizon"
+  },
+  "cinematography": {
+    "camera_motion": "Forward tracking motion mounted on a moving aircraft with natural vibration; slight attitude shifts tilting the horizon",
+    "framing": "Wide circular fisheye framing",
+    "camera_angle": "Eye-level rear-facing perspective from the aircraft",
+    "depth_of_field": "Deep focus throughout the scene",
+    "focus": "Sharp across foreground assembly, mid-ground road, and distant pylons; snowflakes rendered as soft translucent shapes at varying depths",
+    "lens_focal_length": "Ultra-wide fisheye approximately 10-12mm equivalent with pronounced barrel distortion"
+  },
+  "style_medium": "Photoreal live-action aerial footage captured by a stabilized aircraft-mounted fisheye camera",
+  "artistic_style": "Documentary observational realism with a wintry, subdued color grade",
+  "context": "An uninterrupted five-second aerial flyover recording of a snowy roadside from a moving aircraft, likely part of a longer survey or transit documentation sequence",
+  "actions": [
+    {
+      "time": "0:00-0:01",
+      "description": "Distant pylons and roadside entrance hold a relatively stable horizon while nearby road paint slides downward past the fixed foreground assembly; snowflakes drift through the open background."
+    },
+    {
+      "time": "0:01-0:02",
+      "description": "Slight camera attitude changes tilt the horizon and shift the right-side foliage; black propeller traces reposition to different curved paths across the upper frame."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "Travel continues steadily; the prominent central pylon stays near the middle of the horizon, the narrow sidewalk persists along the right edge, and the angled foreground strut crosses over the distant scene."
+    },
+    {
+      "time": "0:03-0:04",
+      "description": "Road markings and surface details continue passing through the lower portion of the frame while dense right-side foliage remains largely unchanged."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The pylon, distant blue sign, sidewalk, and foreground assembly remain visible with small positional shifts; the final frame at 4.937 seconds holds with continued forward motion."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "",
+      "category": "physical_in_scene",
+      "appearance": "Small blue rectangular road sign with illegible lettering due to distance and resolution",
+      "spatial_temporal": "Visible in the distant background along the road, present from 0:00-0:05",
+      "context": "Standard roadside signage providing navigation information along the route"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Opening phase establishing the fisheye rear-view from the aircraft: stable horizon with pylons and entrance area, road markings sliding past, snowfall drifting through the sky, and first subtle attitude shift altering horizon and blade-trace positions.",
+      "key_changes": "Initial horizon stability transitions into a slight tilt; propeller traces relocate to new curved positions",
+      "camera": "Forward tracking mount with mild natural vibration; minor pitch/yaw attitude shift"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:04",
+      "description": "Middle phase of continuous travel: prominent central pylon remains anchored near the middle of the horizon, sidewalk continues along the right edge, and the angled foreground strut crosses over the distant scene as road details stream through the lower frame.",
+      "key_changes": "Ongoing parallax-driven sliding of road features; foliage on the right holds steady",
+      "camera": "Steady forward tracking with consistent vibration; horizon roughly level"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "Closing phase holding the same composition with minor positional shifts; pylon, distant blue sign, sidewalk, and foreground assembly remain visible as the aircraft continues its forward motion through the snowy landscape.",
+      "key_changes": "Subtle positional drift of distant landmarks; final frame locks in at 4.937 seconds",
+      "camera": "Continued forward tracking; slight residual attitude adjustment before clip end"
+    }
+  ],
+  "transitions": [],
+  "resolution": {
+    "W": 1088,
+    "H": 1088
+  },
+  "aspect_ratio": "1,1",
+  "duration": "0:05",
+  "fps": 16
+}

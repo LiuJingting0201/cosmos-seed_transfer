@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "findings": [
+    "The prompt identifies the foreground aircraft assembly, lattice towers, road markings, narrow sidewalk and roadside vegetation without inventing visible pedestrians or water.",
+    "It preserves continuous camera travel and varying propeller traces without adding a completed maneuver. The shared water description is a supported world fact, not a false assertion of visibility in this view."
+  ],
+  "evidence": [
+    "0.000 and 1.000 s: A light gray cylindrical housing occupies the lower-right foreground, black curved tubing spans the lower-left, and mounting rails and beige wrapping remain visible.",
+    "2.000 and 3.000 s: The prominent central lattice tower and slimmer tower to its left remain comparatively stable while nearer roadway details and foliage shift; blade traces change shape.",
+    "4.000 s: The road, paired yellow lines, narrow right-side sidewalk and partly obscured roadside boundary remain identifiable behind the aircraft hardware.",
+    "4.9375 s: The same assembly and distant infrastructure remain present, with changed vegetation overlap and no visible landing, stop or other completed action.",
+    "The specified output dimensions, frame rate and final display interval match the supplied metadata."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_rear_left_original/modified_prompt.json": "3c56789ab00ae65d00b3a59c679eb3bec9d8e1718a5e5ede559e3a2375e783db"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/8dc930db0b0348e2affc47d819618f28"
+}

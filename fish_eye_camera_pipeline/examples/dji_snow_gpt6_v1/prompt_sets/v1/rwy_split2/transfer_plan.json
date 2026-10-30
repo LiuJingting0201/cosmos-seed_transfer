@@ -1,0 +1,47 @@
+{
+  "canonical_view": "rwy_split2_left_left_original",
+  "target": {
+    "weather": "Snowy daytime weather with steady falling white snow under an overcast sky.",
+    "snow_behavior": "Moderately spaced flakes fall under gravity, with small distant flakes and occasional larger nearby flakes. Their projected direction follows each camera's orientation.",
+    "accumulation": "A thin, uneven white dusting rests on exposed vegetation and horizontal surfaces. Road markings, paving joints, drainage openings and underlying materials remain legible. Visible water remains liquid and reflective."
+  },
+  "shared_subject_mode": "explicit",
+  "shared": {
+    "background_setting": "A tree-lined roadside corridor lies beneath a continuous overcast winter sky. Dense dark green shrubs and mature trees border the route, with low structures and an open horizon beyond the vegetation. A partly screened body of reflective water lies behind the shrub-lined pedestrian route, its boundary interrupted by foliage and the planted bank. Steady white snowflakes fall through the air, accompanied by gentle wintry haze in the distance. A thin, uneven white dusting settles on exposed horizontal edges and plant surfaces, leaving underlying textures visible. The water remains liquid, with muted reflections of the sky and adjacent trees; its full extent is concealed by the surrounding vegetation.",
+    "context": "Four synchronized aircraft-mounted fisheye perspectives record one continuous five-second movement along the same roadside corridor. Each perspective has its own visible portion of the surroundings and aircraft. The final recorded frame occurs at 4.9375 seconds and remains displayed through 5.0 seconds.",
+    "style_medium": "Photorealistic aircraft-mounted fisheye video with natural sensor texture and visible propeller motion artifacts.",
+    "artistic_style": "Naturalistic winter documentary footage with restrained contrast and physically plausible snowfall.",
+    "lighting": {
+      "conditions": "Diffuse daytime illumination beneath a continuous cool gray snow-cloud layer.",
+      "direction": "Broad overhead sky illumination without a distinct direct-sun direction.",
+      "shadows": "Soft, low-contrast shadows beneath foliage and aircraft fittings, with deeper shading inside occluded recesses.",
+      "illumination_effect": "White flakes catch diffuse skylight; a light snow dusting gently brightens exposed surfaces. Distant contrast is slightly softened, and visible liquid water carries subdued sky and tree reflections."
+    },
+    "aesthetics": {
+      "color_scheme": "Cool gray clouds, white snow, dark green vegetation and restrained natural material colors, with dark mechanical silhouettes against the sky.",
+      "mood_atmosphere": "Quiet, overcast winter roadside conditions with steady snowfall and clear nearby detail.",
+      "patterns": "Irregular falling flakes, mottled clouds, fine branching foliage and shallow, discontinuous snow deposits."
+    }
+  },
+  "views": {
+    "rwy_split2_left_left_original": {
+      "camera_motion": "Continuous oblique downward travel alongside the roadside. Curb details and drainage grates traverse predominantly from screen right toward screen left, with gentle changes in fisheye tilt. The pedestrian shifts toward the upper-left portion of the image overall. Foreground aircraft edges remain tied to the camera."
+    },
+    "rwy_split2_v_front_left_original": {
+      "camera_motion": "Continuous forward-looking aircraft-mounted travel with mild bobbing and roll. The sidewalk and pedestrian shift toward screen right; the pedestrian rises in the image through approximately four seconds, then sits slightly lower in the final sample. Nearby vegetation passes across the view while the distant road remains near the center-right vanishing area."
+    },
+    "rwy_split2_v_rear_left_original": {
+      "camera_motion": "Continuous rear-facing aircraft-mounted travel with slight attitude changes. Nearby road markings move downward through the image, while distant lattice towers shift comparatively little. Close aircraft supports stay anchored in the foreground and propeller traces vary with rotation."
+    },
+    "rwy_split2_v_up_left_original": {
+      "camera_motion": "Continuous upward-facing fisheye coverage on the moving aircraft, with subtle rocking and drift of the narrow peripheral landscape. Aircraft housing remains anchored near the upper-right rim while rotating propeller traces continually vary across the sky."
+    }
+  },
+  "resolution": "1088x1088",
+  "aspect_ratio": "1:1",
+  "duration": 5.0,
+  "fps": 16.0,
+  "frames": 80,
+  "user_prompt": "将天气变成雪天",
+  "control": "edge"
+}

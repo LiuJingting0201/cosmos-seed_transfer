@@ -1,0 +1,38 @@
+{
+  "inputs": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_left_left_original/modified_prompt.json": "23cff41d9819e4636ea8b7d5a4e71ef3a7f20da0c876fa4ec8ab48a756d9bd3a",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_front_left_original/modified_prompt.json": "33d1f852b0ce4436df17e7e1960cc40bdca8ae01234a4d44d12e5c01b9941918",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_rear_left_original/modified_prompt.json": "3c56789ab00ae65d00b3a59c679eb3bec9d8e1718a5e5ede559e3a2375e783db",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_up_left_original/modified_prompt.json": "97323119664e5e02a52b076ecf176565026c8f73633dcc51ef6489a30114dcd7",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/configs/dji_snow_gpt6_v1.json": "999e8a2b5e45c65256b6b1a5e60c3b70e277f2f39ee8332f8058ca1e6705b348",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/references/prompt-schema.md": "11cb8bae09087f0b1757cd2263d7c77924dcf76b51a65aadd8948d4c83df36fe",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/SKILL.md": "68513b8d61fb34a355cacbfde8e726c56637e026b544ae3965575079d7af041e",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/survey/view_metadata.json": "dd795699cc36be91f9be09ea827f50fd3572ac2ae987006ea8da619f529a4c67",
+    "/root/sam31/data/dji_weather_rwy/rwy_split2_left_left_original.mp4": "6b9a669bd8213aedad9e3f5b24ac4c7ba7d6d8144309b92b43443d74d432fa6c",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/survey/rwy_split2/rwy_split2_left_left_original.jpg": "a89e6bc4d8b3880fcd3eaa445b423acb50b0c9f8d044916f686d2b96906b7e17",
+    "/root/sam31/data/dji_weather_rwy/rwy_split2_v_front_left_original.mp4": "efac1456a8df604e5da1dad32a7eda7a0172321d14b74bc7c324cfc2890636f0",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/survey/rwy_split2/rwy_split2_v_front_left_original.jpg": "6afacf8ed4b8af53613a8f63890595261b5d0bee077b478e510fc0e30035fb10",
+    "/root/sam31/data/dji_weather_rwy/rwy_split2_v_rear_left_original.mp4": "288c943975808f304d9a060325cfffc11aa70f33f83ecbbaa35468e8eb67f733",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/survey/rwy_split2/rwy_split2_v_rear_left_original.jpg": "e9ccbc7bb06af1045dbbf1e1569987859971849d6b166ab9ee41489f1badcbf0",
+    "/root/sam31/data/dji_weather_rwy/rwy_split2_v_up_left_original.mp4": "13241faaddc45fb258950a4b5a59992cc8c3fb7bedb3610b667d567cc85acede",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/survey/rwy_split2/rwy_split2_v_up_left_original.jpg": "78621e6ce610925d16bc57a8c29fe166f205a8fdd1406183825cff5a6e48abf8"
+  },
+  "outputs": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_left_left_original/compliance_report.json": "c8ce606d311a6ae0a6a5221d70c533d702f5a06a5beae3d684baab4ae0410d14",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_front_left_original/compliance_report.json": "e72265e00ed4560b180c861d6ca4dc60d5bb06c23bf097a8deee28bfc2a4947d",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_rear_left_original/compliance_report.json": "2537dda8263cbbc92a70ea4d07919f4ad903c41f8d57be99574003eebc058a4d",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_up_left_original/compliance_report.json": "13a4c6609c2762370cce8cb340f6bc14edd75f891bce0ddee74ec5fd50038da3"
+  },
+  "evidence": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4/request.json": "0c0290733f8630e686aff33fbdc897fff761991a9f43c3d1caa17fe9baf59da6",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4/response.json": "ae6dc0c291aac44438721a93145ac52a6f9f22cee8eef4614ce213dbe8faac00",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4/raw_text.txt": "fd7d5a5e8114070e53e946d6945afa1b7a3bc46099371b102ca0904073c8ec13",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4/parsed.json": "f683d222a7869583858c89ce48a84e68115d167dd3d1c1d3350713df7a983041",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4/call.json": "52e4dbae46b7360afe3d65e8c01d2c62889bfaa7cc5a5f380f0e470706811ab9",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4/events.jsonl": "0c0fbf83eff1df11ea56718afac1d246ffb903442945c841df630e81b20f8fec",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4/final.json": "d8cb7bb1c9496ac6adc5a377db7fbc5922b8b52b07f2cb7fc1da43acb493a742"
+  },
+  "calls": [
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4"
+  ]
+}

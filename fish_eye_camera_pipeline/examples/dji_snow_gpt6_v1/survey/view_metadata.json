@@ -1,0 +1,74 @@
+{
+  "rwy_split2/rwy_split2_left_left_original": {
+    "source": "/root/sam31/data/dji_weather_rwy/rwy_split2_left_left_original.mp4",
+    "frames": 80,
+    "width": 1088,
+    "height": 1088,
+    "fps": 16.0,
+    "duration_s": 5.0,
+    "sampled_frames": [
+      0,
+      16,
+      32,
+      48,
+      64,
+      79
+    ],
+    "last_frame_time_s": 4.9375,
+    "last_frame_interval_end_s": 5.0
+  },
+  "rwy_split2/rwy_split2_v_front_left_original": {
+    "source": "/root/sam31/data/dji_weather_rwy/rwy_split2_v_front_left_original.mp4",
+    "frames": 80,
+    "width": 1088,
+    "height": 1088,
+    "fps": 16.0,
+    "duration_s": 5.0,
+    "sampled_frames": [
+      0,
+      16,
+      32,
+      48,
+      64,
+      79
+    ],
+    "last_frame_time_s": 4.9375,
+    "last_frame_interval_end_s": 5.0
+  },
+  "rwy_split2/rwy_split2_v_rear_left_original": {
+    "source": "/root/sam31/data/dji_weather_rwy/rwy_split2_v_rear_left_original.mp4",
+    "frames": 80,
+    "width": 1088,
+    "height": 1088,
+    "fps": 16.0,
+    "duration_s": 5.0,
+    "sampled_frames": [
+      0,
+      16,
+      32,
+      48,
+      64,
+      79
+    ],
+    "last_frame_time_s": 4.9375,
+    "last_frame_interval_end_s": 5.0
+  },
+  "rwy_split2/rwy_split2_v_up_left_original": {
+    "source": "/root/sam31/data/dji_weather_rwy/rwy_split2_v_up_left_original.mp4",
+    "frames": 80,
+    "width": 1088,
+    "height": 1088,
+    "fps": 16.0,
+    "duration_s": 5.0,
+    "sampled_frames": [
+      0,
+      16,
+      32,
+      48,
+      64,
+      79
+    ],
+    "last_frame_time_s": 4.9375,
+    "last_frame_interval_end_s": 5.0
+  }
+}

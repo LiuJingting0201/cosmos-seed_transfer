@@ -1,0 +1,26 @@
+{
+  "name": "rwy_split2__rwy_split2_v_up_left_original",
+  "model_mode": "video2video",
+  "resolution": "720",
+  "aspect_ratio": "1,1",
+  "num_frames": 80,
+  "fps": 16.0,
+  "shift": 10.0,
+  "num_steps": 50,
+  "seed": 2026,
+  "num_video_frames_per_chunk": 121,
+  "num_conditional_frames": 1,
+  "num_first_chunk_conditional_frames": 0,
+  "share_vision_temporal_positions": true,
+  "negative_metadata_mode": "none",
+  "negative_prompt_keep_metadata": false,
+  "guidance": 3.0,
+  "control_guidance": 1.5,
+  "negative_prompt_file": "/root/sam31/cosmos/cookbooks/cosmos3/generator/transfer/assets/negative_prompt.json",
+  "prompt_path": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_up_left_original/modified_prompt.json",
+  "emphasize_control_in_prompt": false,
+  "vision_path": "/root/sam31/data/dji_weather_rwy/rwy_split2_v_up_left_original.mp4",
+  "edge": {
+    "preset_edge_threshold": "medium"
+  }
+}

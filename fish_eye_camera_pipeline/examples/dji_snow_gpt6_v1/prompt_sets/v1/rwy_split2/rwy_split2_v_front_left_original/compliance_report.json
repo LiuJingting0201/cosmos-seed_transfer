@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "findings": [
+    "The prompt preserves the visible pedestrian, foreground support, propeller artifacts, distant vehicles and roadside surfaces while explicitly introducing snowy weather.",
+    "Walking versus jogging and independent vehicle motion remain appropriately unresolved. Shared weather descriptions and output metadata agree."
+  ],
+  "evidence": [
+    "0.0–1.0 s: The pedestrian shifts rightward from the lower-middle sidewalk; the light gray support, pale securing band, wrapping and black motor remain prominent at left.",
+    "2.0–3.0 s: Openings behind the shrubs reveal reflective water, and the pedestrian progresses toward center-right while black propeller streaks vary across the sky.",
+    "4.0–4.9375 s: The pedestrian appears slightly lower in the final sample than at 4.0 s; the boxy vehicle remains ahead and drainage details appear near the bottom.",
+    "Across all six samples, aircraft hardware stays near the left foreground while roadside geometry shifts, supporting continuous mounted travel with mild attitude variation."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_front_left_original/modified_prompt.json": "33d1f852b0ce4436df17e7e1960cc40bdca8ae01234a4d44d12e5c01b9941918"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4"
+}

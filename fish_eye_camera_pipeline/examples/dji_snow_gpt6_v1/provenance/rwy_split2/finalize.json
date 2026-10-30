@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/transfer_plan.json": "8b58d115e19c37d506f317af3976785901780c5b8e30479a102c5520be0e5291",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_left_left_original/upsampled_prompt.json": "f05d2ec7892429e12ec820da47a3789ab13ac736c319d95c173c1fca55a5031c",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_front_left_original/upsampled_prompt.json": "cb2f16ea18ef525b46773cea21eec13281ff79af0a3d21b9eb553d2fb67d25de",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_rear_left_original/upsampled_prompt.json": "0dd3dfb1e80b599b9376330c54ea73deaf4efbda4ec064dc5a958d9f6f9d1cb2",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_up_left_original/upsampled_prompt.json": "71e54f3b5828e4c4e0c93e3bb1e1f77c2d5129e8635cb32353bf2088d4f15970",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/survey/view_metadata.json": "dd795699cc36be91f9be09ea827f50fd3572ac2ae987006ea8da619f529a4c67"
+  },
+  "outputs": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_left_left_original/finalized_prompt.json": "3dd9fb4a335ed87214887de140217c0d8ee99cfc227c5b67229ae277a628be32",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_front_left_original/finalized_prompt.json": "91ca250aaedb0df3a6d7b5242350e1834e66c49083fb41a99071cf0830c1632b",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_rear_left_original/finalized_prompt.json": "3b8b2d2ef6b3956f69b178e42525a59c17564aa424a823bc079673b033ee5323",
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_v_up_left_original/finalized_prompt.json": "4cb0e3f75ab24d55a739d4e4d3d2b8368b7389de69a2572c10f9bab25d1677a0"
+  },
+  "evidence": {},
+  "calls": []
+}

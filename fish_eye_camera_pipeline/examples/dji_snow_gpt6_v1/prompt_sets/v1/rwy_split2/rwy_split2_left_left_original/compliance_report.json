@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "findings": [
+    "Snowfall and thin snow dusting satisfy the requested weather change. The pedestrian, aircraft fittings, roadway, sidewalk, vegetation and partially screened water are specifically accounted for.",
+    "Shared weather fields agree across perspectives, and output dimensions, frame rate and duration match the supplied metadata."
+  ],
+  "evidence": [
+    "0.0–1.0 s: One pedestrian occupies the left sidewalk and shifts upward and left; light gray aircraft fittings and the brown right-edge wrapped section remain at the margins.",
+    "2.0–3.0 s: Vegetation gaps expose reflective water below the sidewalk while curbside drainage grates progress leftward, matching the described parallax and occlusion.",
+    "4.0–4.9375 s: The pedestrian remains visible; drainage grates sit farther left, a brown rectangular pavement inset appears at the right, and vegetation screens most water except a lower-right opening.",
+    "The final-frame interval of 4.9375–5.0 s agrees with the supplied 80-frame, 16 fps metadata."
+  ],
+  "prompt_sha256": {
+    "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/prompt_sets/v1/rwy_split2/rwy_split2_left_left_original/modified_prompt.json": "23cff41d9819e4636ea8b7d5a4e71ef3a7f20da0c876fa4ec8ab48a756d9bd3a"
+  },
+  "model_call": "/root/sam31/cosmos-gpt6-expanded-20260916/multiview/outputs/dji_snow_gpt6_v1/provenance/rwy_split2/audit/f2f94514607c48bb902e213fa85a0be4"
+}
